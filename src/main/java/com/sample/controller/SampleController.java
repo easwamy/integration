@@ -11,4 +11,8 @@ public class SampleController {
 		return "good";
 	}
 
+	@GetMapping("/sample2")
+	public String getMethod2() {
+		return "good";
+	}
 }
