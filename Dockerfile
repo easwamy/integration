@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/integration.jar integration.jar
+ADD target/integration-0.0.1-SNAPSHOT.war integration.jar
 ENTRYPOINT ["java","-jar","/integration.jar"]
